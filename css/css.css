@@ -1,22 +1,73 @@
-.size{
+.size {
     font-family: 'Quantico', sans-serif;
     font-size: 1.25rem;
-
 }
-.a{
+
+.a {
     font-family: 'Quantico', sans-serif;
     font-size: 1.25vw;
 }
-.bgc{
+
+.bgc {
     background-color: #2b463c;
 }
-.font{
+
+.font {
     font-family: 'Press Start 2P', cursive;
     font-size: 4.5vw;
 }
-.fontN{
+
+.fontN {
     font-family: 'Press Start 2P', cursive;
     font-size: 2.5vw;
 }
 
+.bg {
+    background-color: #b0d182;
+}
+.personal_text{
+    font-family: 'Playfair Display', serif;
+ 
+}
 
+.home_banner_area {
+    position: relative;
+    z-index: 1;
+    background-image: -moz-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);
+    background-image: -webkit-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);
+    background-image: -ms-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);
+    margin-bottom: 200px;
+}
+
+.home_banner_area .box_1620 {
+    min-height: 700px;
+    border-radius: 12px;
+    position: relative;
+    bottom: -200px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.home_banner_area .banner_inner {
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+}
+
+.home_banner_area .banner_inner .banner_content {
+    color: #222222;
+    vertical-align: middle;
+    align-self: center;
+    text-align: left;
+}
+
+.home_banner_area .banner_inner .banner_content .media .d-flex {
+    padding-right: 125px;
+}
+
+.home_banner_area .banner_inner .banner_content .media .media-body {
+    vertical-align: middle;
+    align-self: center;
+}
