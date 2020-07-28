@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <header>
         <nav class="navbar navbar-expand-md navbar-dark bgc fixed-top">
             <img src="image/icom.png" width="40px" height="40px">
             <a class="navbar-brand size" href="#">Portfolio</a>
@@ -27,11 +27,9 @@
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto size">
-                    <!--m ย่อมาจาก magin l = left -->
-
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="profile.html">Profile</a>
                     </li>
@@ -41,19 +39,20 @@
                     <li class="nav-item">
                         <a class="nav-link " href="#">Activites</a>
                     </li>
-                    
                 </ul>
             </div>
         </nav>
-    </div>
+</header>
+
+<main role="main">
     <!--รูปเลื่อน-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner ">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
         </ol>
+        <div class="carousel-inner ">
             <div class="carousel-item active">
                 <picture>
                     <img src="image/BN.jpg" class="img-fluid img-thumbnail  " alt="..."></picture>
@@ -87,7 +86,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
             
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -99,6 +98,7 @@
             </a>
         </div>
     </div>
+
 
     <section class="home_banner_area ">
         <div class="container box_1620">
@@ -128,7 +128,7 @@
 
 
 
-
+</main>
     <!-- /.container -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
