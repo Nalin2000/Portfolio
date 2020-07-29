@@ -17,25 +17,43 @@
     font-size: 4.5vw;
 }
 
+.green {
+    color: #2b463c;
+}
+
 .fontN {
     font-family: 'Press Start 2P', cursive;
     font-size: 2.5vw;
 }
+
 .fontN1 {
     font-family: 'Quantico', sans-serif;
-    font-size: 2vw;
-    
+    font-size: 2.5vw;
 }
-.c{
+
+.c {
+    font-family: 'Dosis', sans-serif;
     color: #2b463c;
 }
 
 .bg {
     background-color: #b0d182;
 }
-.personal_text{
+
+.personal_text {
     font-family: 'Playfair Display', serif;
- 
+}
+
+.left {
+    font-family: 'Quantico', sans-serif;
+    font-size: 3vw;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.abm {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
 }
 
 .home_banner_area {
@@ -78,4 +96,129 @@
 .home_banner_area .banner_inner .banner_content .media .media-body {
     vertical-align: middle;
     align-self: center;
+}
+
+.isotope_fillter {
+    margin-bottom: 50px;
+}
+
+.isotope_fillter .gallery_filter {
+    text-align: center;
+}
+
+.isotope_fillter .gallery_filter li {
+    display: inline-block;
+    margin-right: 45px;
+}
+
+.isotope_fillter .gallery_filter li:last-child {
+    margin-right: 0px;
+}
+
+.isotope_fillter .gallery_filter li a {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #222222;
+    transition: all 300ms linear 0s;
+    text-transform: uppercase;
+}
+
+.isotope_fillter .gallery_filter li:hover a, .isotope_fillter .gallery_filter li.active a {
+    color: #766dff;
+}
+
+.gallery_f_inner {
+    margin-bottom: -45px;
+}
+
+.h_gallery_item {
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+.h_gallery_item .g_img_item {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.h_gallery_item .g_img_item:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-image: -moz-linear-gradient(0deg, #b0d182 0%, #ffffff 100%);
+    background-image: -webkit-linear-gradient(0deg, #b0d182 0%, #ffffff  100%);
+    background-image: -ms-linear-gradient(0deg, #b0d182 0%, #ffffff  100%);
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.h_gallery_item .g_img_item .light {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.h_gallery_item .g_item_text {
+    text-align: center;
+}
+
+.h_gallery_item .g_item_text h4 {
+    color: #222222;
+    font-size: 21px;
+    margin-top: 22px;
+    transition: all 300ms linear 0s;
+}
+
+.h_gallery_item .g_item_text p {
+    margin-bottom: 0px;
+}
+
+.h_gallery_item:hover .g_img_item:before {
+    opacity: .85;
+}
+
+.h_gallery_item:hover .g_img_item .light {
+    opacity: 1;
+}
+
+.h_gallery_item:hover .g_item_text h4:hover {
+    color: #4dac5a;
+}
+
+.more_btn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main_title {
+    text-align: center;
+    max-width: 670px;
+    margin: 0px auto 75px;
+}
+
+.main_title h2 {
+    font-family: "Heebo", sans-serif;
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.main_title p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 26px;
+    color: #464646;
+    margin-bottom: 0px;
 }
