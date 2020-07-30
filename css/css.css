@@ -1,3 +1,4 @@
+
 .size {
     font-family: 'Quantico', sans-serif;
     font-size: 1.25rem;
@@ -6,6 +7,11 @@
 .a {
     font-family: 'Quantico', sans-serif;
     font-size: 1.25vw;
+}
+.ed{
+    color: #2b463c;
+    font-size: 2vw;
+    text-align: center;
 }
 
 .bgc {
@@ -67,6 +73,16 @@
 
 .home_banner_area .box_1620 {
     min-height: 700px;
+    border-radius: 12px;
+    position: relative;
+    bottom: -200px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+.home_banner_area .box_162 {
+    min-height: 300px;
     border-radius: 12px;
     position: relative;
     bottom: -200px;
@@ -222,3 +238,205 @@
     color: #464646;
     margin-bottom: 0px;
 }
+
+/* My Tabs Area css
+============================================================================================ */
+.mytabs_area {
+    background-image: -moz-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);
+    background-image: -webkit-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);
+    background-image: -ms-linear-gradient(0deg, #2b463c 0%, #f4f1e9 100%);}
+  
+  .tabs_inner .nav.nav-tabs {
+    display: block;
+    text-align: center;
+    border: none;
+    margin-bottom: 120px; }
+    .tabs_inner .nav.nav-tabs li {
+      display: inline-block;
+      margin-right: 8px; }
+      .tabs_inner .nav.nav-tabs li a {
+        margin: 0px;
+        line-height: 50px;
+        border-radius: 5px;
+        padding: 0px 40px;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(15, 15, 15);
+        font-family: "Roboto", sans-serif;
+        border: 1px solid #060708;
+        background: rgba(255, 255, 255, 0.1); }
+        .tabs_inner .nav.nav-tabs li a.active {
+          background: rgb(14, 14, 14);
+          color: #222222; }
+  .tabs_inner .tab-content .tab-pane .list {
+    max-width: 460px;
+    margin: auto;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 60px; }
+
+    .tabs_inner .tab-content .tab-pane .list:before {
+      content: "";
+      height: 100%;
+      width: 5px;
+      background: rgba(10, 10, 10, 0.2);
+      position: absolute;
+      left: 46%;
+      transform: translateX(-20%);
+      top: -5px; }
+
+    .tabs_inner .tab-content .tab-pane .list li {
+      margin-bottom: 60px;
+      position: relative; }
+      .tabs_inner .tab-content .tab-pane .list li span {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        display: block;
+        background: rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 46%;
+        top: 30px;
+        transform: translateX(-50%); }
+        .tabs_inner .tab-content .tab-pane .list li span:before {
+          content: '';
+          height: 7px;
+          width: 7px;
+          background: rgb(0, 0, 0);
+          border-radius: 50%;
+          position: absolute;
+          left: 52%;
+          top: 4px;
+          transform: translateX(-50%); }
+      .tabs_inner .tab-content .tab-pane .list li:last-child {
+        margin-bottom: 0px; }
+      .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
+        padding-right: 100px; }
+        .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
+          color: rgba(0, 0, 0, 0.75);
+          margin-bottom: 0px;
+          padding-top: 20px; }
+      .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
+        color: rgb(0, 0, 0)3, 3, 3);
+        font-size: 21px;
+        text-transform: uppercase;
+        margin-bottom: 20px; }
+      .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
+        color: rgba(0, 0, 0, 0.75)
+        margin-bottom: 0px; }
+  
+  /* End My Tabs Area css
+  ============================================================================================ */
+
+/* Footer Area css
+============================================================================================ */
+.footer_area {
+    background: rgb(184, 201, 187); }
+  
+  .f_title {
+    margin-bottom: 35px; }
+    .f_title h3 {
+      color: rgb(52, 59, 57);
+      font-size: 18px;
+      font-weight: bold;
+      font-family: "Heebo", sans-serif;
+      margin-bottom: 0px; }
+  
+  .ab_widget p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #2e2a2a;
+    margin-bottom: 30px; }
+    .ab_widget p a {
+      color: #af3d29; }
+    .ab_widget p + p {
+      margin-bottom: 0px; }
+  
+  .news_widget {
+    padding-right: 15px; }
+    .news_widget p {
+      font-size: 14px;
+      line-height: 24px;
+      font-family: "Roboto", sans-serif;
+      color: #000000;
+      margin-bottom: 15px; }
+    .news_widget .input-group input {
+      height: 40px;
+      background: transparent;
+      border-radius: 0px;
+      width: 80%;
+      border: none;
+      padding: 0px 15px;
+      border: 1px solid #1e233b;
+      font-size: 14px;
+      font-family: "Roboto", sans-serif;
+      color: #154219;
+      outline: none;
+      box-shadow: none; }
+      .news_widget .input-group input.placeholder {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: #cccccc; }
+      .news_widget .input-group input:-moz-placeholder {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: #cccccc; }
+      .news_widget .input-group input::-moz-placeholder {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: #cccccc; }
+      .news_widget .input-group input::-webkit-input-placeholder {
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: normal;
+        color: #cccccc; }
+    .news_widget .input-group .sub-btn {
+      border-radius: 0px;
+      background-image: -moz-linear-gradient(0deg, #035f4a 0%, #ffffff 100%);
+      background-image: -webkit-linear-gradient(0deg, #035f4a 0%, #ffffff 100%);
+      background-image: -ms-linear-gradient(0deg, #035f4a 0%, #ffffff 100%);
+      outline: none !important;
+      box-shadow: none !important;
+      padding: 0px;
+      border: none;
+      width: 42px;
+      cursor: pointer;
+      color: rgb(0, 0, 0); }
+
+  /* End Footer Area css*/
+ 
+  .tools_expert {
+    padding: 20px 0px 0px 0px; }
+    .tools_expert .skill_main .skill_item {
+      margin-bottom: 18px; }
+      .tools_expert .skill_main .skill_item:last-child {
+        margin-bottom: 0px; }
+      .tools_expert .skill_main .skill_item h4 {
+        text-align: none;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        color: #222222;
+        margin-bottom: 15px; }
+      .tools_expert .skill_main .skill_item .progress_br {
+        border: 1px solid #eeeeee;
+        padding: 5px;
+        border-radius: 10px; }
+      .tools_expert .skill_main .skill_item .progress {
+        height: 10px;
+        border-radius: 10px;
+        background: #e8e8e8; }
+        .tools_expert .skill_main .skill_item .progress .progress-bar {
+          width: 0%;
+          transition: width .6s ease;
+          height: 10px;
+          border-radius: 5px;
+          vertical-align: middle;
+          align-self: center;
+          background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+          background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+          background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
